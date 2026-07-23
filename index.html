@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ごはんルーレット</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>ごはんルーレット</h1>
+
+    <div class="roulette-container">
+
+        <!-- 上にある矢印 -->
+        <div class="pointer">▼</div>
+
+        <!-- ルーレット本体 -->
+        <canvas id="wheel" width="500" height="500"></canvas>
+
+    </div>
+
+    <button id="startButton">ルーレットを回す</button>
+
+    <p id="result">ボタンを押してください</p>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
